@@ -1,7 +1,8 @@
 programa {
   funcao inicio() {
-    escreva ("Caio")
-    cadeia Nome="Caio"
+    escreva ("Digite seu nome:")
+    cadeia Nome
     leia(Nome)
+    escreva("Nome: ", Nome)
   }
 }
